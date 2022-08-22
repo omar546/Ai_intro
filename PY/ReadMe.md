@@ -1,1 +1,1 @@
-simple X-O game with python
+python projects with colleagues
