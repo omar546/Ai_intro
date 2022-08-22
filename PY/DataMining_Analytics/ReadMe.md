@@ -3,4 +3,4 @@ on {titanic, iris} datasets
 
 Team members :
 Serag el-dein Amged ,Karim radwan, Mohmmed farag, Ahmed hosny, Ahmed abd-el-salam
-Omar mekkawy
+Abdullah el-sayed, Omar mekkawy
