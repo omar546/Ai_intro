@@ -1,1 +1,1 @@
-# CO-op projects worked on with my peers|colleagues
+ CO-op projects worked on with my peers|colleagues
