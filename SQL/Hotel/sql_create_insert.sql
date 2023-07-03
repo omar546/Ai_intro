@@ -1,5 +1,5 @@
-CREATE : 
-====================================
+/*CREATE : 
+====================================*/
 create table department(dep_id number primary key,dep_location varchar(6) not null,dep_name varchar(20) not null);
 
 create table employee (emp_id number(10) primary key,fname varchar(15) not null, lname varchar(15) not null,salary number(5),E_DOB number(4),emp_address varchar(30),job_department varchar(20),dep_id number,FOREIGN KEY(dep_id) 
@@ -43,9 +43,9 @@ create table report(report_id number(10) primary key,rating number(1),cust_ssn n
 create table pros (report_id number primary key,foreign key (report_id) references report(report_id),pros_type varchar(20));
 
 create table cons (report_id number primary key,foreign key (report_id) references report(report_id),cons_type varchar(20));
-===============================================
+/*===============================================
 INSERT :
-===============================================
+===============================================*/
 CREATE SEQUENCE dept_dep_id_seq INCREMENT BY 10 START WITH 80 MAXVALUE 9999 NOCACHE NOCYCLE;
 
    INSERT INTO department VALUES (dept_dep_id_seq.NEXTVAL , 'b2','front_off' );
